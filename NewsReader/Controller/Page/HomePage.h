@@ -6,7 +6,7 @@
 //  Copyright © 2017年 liuyingjieyeah. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "FxBasePage.h"
 
 @interface HomePage : UIViewController
 

@@ -1,0 +1,18 @@
+//
+//  NewsReader-Prefix.pch
+//  NewsReader
+//
+//  Created by liuyingjie on 2017/6/15.
+//  Copyright © 2017年 liuyingjieyeah. All rights reserved.
+//
+
+#ifndef NewsReader_Prefix_pch
+#define NewsReader_Prefix_pch
+
+#import "Defines.h"
+
+
+
+
+
+#endif /* NewsReader_Prefix_pch */

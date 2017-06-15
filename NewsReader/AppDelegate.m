@@ -7,7 +7,6 @@
 //
 
 #import "AppDelegate.h"
-#import "Defines.h"
 
 @interface AppDelegate ()
 
@@ -20,7 +19,7 @@
 
     BASE_ERROR_FUN(@"error");
     
-    
+    BASE_INFO_FUN(@"app start");
     
     
     
