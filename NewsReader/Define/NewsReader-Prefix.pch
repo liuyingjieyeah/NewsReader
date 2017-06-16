@@ -9,7 +9,25 @@
 #ifndef NewsReader_Prefix_pch
 #define NewsReader_Prefix_pch
 
+
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+
 #import "Defines.h"
+
+#import "URLDefine.h"
+
+#import "YJToolClass.h"
+
+
+
+#import "FxGlobal.h"
+#import "FxFileUtility.h"
+#import "FxJsonUtility.h"
+
+
 
 
 

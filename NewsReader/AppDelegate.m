@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "LogInPage.h"
+#import "HomePage.h"
 
 @interface AppDelegate ()
 
@@ -17,13 +19,23 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
-    BASE_ERROR_FUN(@"error");
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     
-    BASE_INFO_FUN(@"app start");
+    [self showHomePage];
+
+    [self.window makeKeyAndVisible];
     
     
     
     return YES;
+}
+
+- (void)showHomePage{
+    HomePage *homePage = [[HomePage alloc]init];
+    self.window.rootViewController = homePage;
+    
+//    LogInPage *logV = [[LogInPage alloc]init];
+//    UINavigationController *NavC = [[UINavigationController alloc]initWithRootViewController:logV];
 }
 
 

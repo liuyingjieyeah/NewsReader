@@ -50,6 +50,9 @@
 #define IsiPhone6   (IsiPhone && ScreenMaxLength == 667.0)
 #define IsiPhone6P  (IsiPhone && ScreenMaxLength == 736.0)
 
+//判断系统是否为ios7以上
+#define isIOS7 ([[[UIDevice currentDevice] systemVersion]floatValue] >= 7.0 ? YES : NO)
+
 
 // 消息通知
 #define RegisterNotify(_name, _selector)                    \

@@ -8,7 +8,7 @@
 
 #import "FxBasePage.h"
 
-@interface HomePage : UIViewController
+@interface HomePage : UITabBarController
 
 
 @end
